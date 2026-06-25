@@ -1,0 +1,18 @@
+{
+  "name": "otaku-hub",
+  "version": "1.0.0",
+  "description": "Anime, manga & manhwa aggregator pulling from Pixiv, MangaDex, AniList and more",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "node-cache": "^5.1.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
